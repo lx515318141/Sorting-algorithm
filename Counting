@@ -1,0 +1,35 @@
+a{
+    '0'=9,
+    '1'=6,
+    '2'=8,
+    '3'=3,
+    '4'=4,
+    '5'=7,
+    'length'=6,
+}
+hash{}
+for(i = 0; i < a['length']; i++){
+    n = a[i];
+    if(hash[n] = undefined){
+        hash[n] = 1;
+    }else{
+        hash[n]  hash[n] + 1;
+    }
+}
+m = 0;
+max = a[m];
+while(m < a['length'] -1){
+    m++;
+    if(max < a[m]){
+        max = a[m];
+    }
+}
+b{}
+for(l = 0; l <= max + 1; l++){
+    c = 0;
+    if(hash[l] != undefined && c < hash[l]){
+        b.pash(l);
+        c++;
+    }
+}
+return b;
