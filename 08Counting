@@ -1,3 +1,5 @@
+// 计数排序
+
 a{
     '0'=9,
     '1'=6,
@@ -25,11 +27,11 @@ while(m < a['length'] -1){
     }
 }
 b{}
-for(l = 0; l <= max + 1; l++){
-    c = 0;
-    if(hash[l] != undefined && c < hash[l]){
-        b.pash(l);
-        c++;
+for(l = 0; l <= max; l++){
+    if(hash[l] != undefined){
+        for(c = 0;c < hash[l];c++){
+            b.pash(l);
+        }
     }
 }
 return b;
